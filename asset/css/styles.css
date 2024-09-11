@@ -43,6 +43,9 @@ a {
     line-height: 1.16;
 }
 
+.lv2 {
+    font-size: 4.2rem;
+}
 /* ====== HEADER ======= */
 .header {
     background: #fff;
@@ -51,6 +54,7 @@ a {
 .header.fix {
     position: sticky;
     top: -44px;
+    z-index: 1;
 }
 
 .header .body {
@@ -272,4 +276,59 @@ a {
     font-size: 1rem;
     font-weight: 500;
     background: #1ebfc1;
+}
+
+/* ====== FEATURES ======= */
+.features {
+    padding: 50px 0;
+    margin-top: 80px;
+}
+
+.features-top {
+    width: 50%;
+}
+
+.features-top .title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.features-top .heading {
+    line-height: 1.33;
+    margin: 18px 0;
+}
+
+.features-top .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.features .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.features .column .lv3 {
+    margin-top: 26px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.features .column .desc {
+    margin-top: 16px;
+    width: 224px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.69;
+}
+
+.features .column:first-child .desc {
+    width: 168px;
 }
