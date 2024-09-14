@@ -371,6 +371,10 @@ a {
     text-decoration-line: underline;
 }
 
+.courses-top .all:hover {
+    opacity: 0.8;
+}
+
 /* courses-bottom */
 .courses-bottom {
     margin-top: 79px;
@@ -666,4 +670,40 @@ a {
     position: absolute;
     bottom: 29px;
     right: 5%;
+}
+
+/* ====== ACCOUNT ======= */
+.account {
+    margin-top: 80px;
+    padding: 76px 0;
+    background: #def6f5;
+}
+
+.account .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account .title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.account .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.account .btn {
+    background: #2ac9bf;
+}
+
+.account .btn:hover {
+    opacity: 0.8;
 }
