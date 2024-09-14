@@ -683,6 +683,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 154px;
 }
 
 .account .title {
@@ -706,4 +707,53 @@ a {
 
 .account .btn:hover {
     opacity: 0.8;
+}
+
+/* ====== FOOTER ======= */
+.footer {
+    margin-top: 80px;
+    padding: 50px 0;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .title {
+    margin-bottom: 26px;
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .column:last-child .title {
+    margin-bottom: 18px;
+}
+
+.footer li {
+    margin-top: 18px;
+}
+
+.footer li a {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer .column:last-child li a {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.footer .copyright {
+    margin-top: 80px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
 }
